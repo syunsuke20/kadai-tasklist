@@ -12,6 +12,13 @@
             <ul class="navbar-nav">
                 {{-- メッセージ作成ページへのリンク --}}
                 <li class="nav-item">{!! link_to_route('tasks.create', '新規タスクの投稿', [], ['class' => 'nav-link']) !!}</li>
+                
+                 {{-- サインアップへのリンク --}}
+                <li class="nav-item"><a href="#" class="nav-link">サインアップ</a></li>
+                
+                {{-- ログインページへのリンク --}}
+                <li class="nav-item"><a href="#" class="nav-link">ログイン</a></li>
+            
             </ul>
         </div>
     </nav>
